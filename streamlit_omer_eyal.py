@@ -224,6 +224,6 @@ if app_mode == 'Calculate an area':
     index_area = AruCo_area(image, index = index_value_slider-1, k = k_value, attempts = attempts_value_slider)
     
     # Display the result on the right (main frame)
-    st.markdown('The area of your index in the image is:')
+    st.markdown('The area of your index in the image in cm^2 is:')
     st.text(index_area)
 
