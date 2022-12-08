@@ -46,11 +46,11 @@ def segment_image_kmeans(img, k=3, attempts=10):
     return segmented_image
 
 # vars
-DEMO_IMAGE = 'demo.png' # a demo image for the segmentation page, if none is uploaded
-favicon = 'favicon.png'
+DEMO_IMAGE = 'demo.jpg' # a demo image for the segmentation page, if none is uploaded
+
 
 # main page
-st.set_page_config(page_title='Calculate AruCo Marker', page_icon = favicon, layout = 'wide', initial_sidebar_state = 'auto')
+st.set_page_config(page_title='Calculate AruCo Marker', layout = 'wide', initial_sidebar_state = 'auto')
 st.title('Calculate area with AruCo marker, by Omer Eyal')
 
 # side bar
