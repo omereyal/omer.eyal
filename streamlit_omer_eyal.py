@@ -221,7 +221,7 @@ if app_mode == 'Calculate an area':
     st.sidebar.image(image)
     
     # call the function to calculate the area
-    index_area = Aruco_area(image, index_value_slider, k_value, attempts_value_slider)
+    index_area = Aruco_area(image, index = index_value_slider, k = k_value, attempts = attempts_value_slider)
     
     # Display the result on the right (main frame)
     st.markdown('The area of your index in the image is:')
